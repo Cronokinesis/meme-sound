@@ -17,10 +17,12 @@ export default function Home() {
   useEffect(() => {
     document.getElementById('body')?.addEventListener('keypress', (e) => {
       if (e.key === '1') {
-        play('ora');
-      } else if (e.key === '2') {
         play('the-world');
+      } else if (e.key === '2') {
+        play('star-platinum');
       } else if (e.key === '3') {
+        play('ora');
+      } else if (e.key === '4') {
         play('giorno');
       }
     });

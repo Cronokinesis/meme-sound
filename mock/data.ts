@@ -33,4 +33,5 @@ export const data: IData[] = [
   { label: "ora ora ora ora", filename: "ora", type: "Svelte" },
   { label: "the world time stop", filename: "the-world", type: "Svelte" },
   { label: "giorno", filename: "giorno", type: "Svelte" },
+  { label: "star-platinum", filename: "star-platinum", type: "Svelte" },
 ];
